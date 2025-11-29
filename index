@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Harry & sein Team</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: 'Roboto', sans-serif;
+      background: linear-gradient(135deg, #2c3e50, #4ca1af);
+      color: #fff;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+    }
+    h1 {
+      font-size: 3rem;
+      margin-bottom: 10px;
+      color: #ffd700;
+      text-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+      text-align: center;
+    }
+    p {
+      font-size: 1.2rem;
+      line-height: 1.6;
+      max-width: 700px;
+      text-align: center;
+      margin-bottom: 30px;
+    }
+    .team {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+    }
+    .member {
+      background: rgba(0,0,0,0.5);
+      padding: 20px;
+      border-radius: 15px;
+      width: 200px;
+      text-align: center;
+      box-shadow: 0 6px 20px rgba(0,0,0,0.3);
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+    .member:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+    }
+    .member h2 {
+      font-size: 1.5rem;
+      margin-bottom: 10px;
+      color: #00ffea;
+    }
+    .member p {
+      font-size: 1rem;
+      color: #f0f0f0;
+    }
+    button {
+      margin-top: 20px;
+      padding: 12px 30px;
+      border: none;
+      border-radius: 10px;
+      background: #ff6b6b;
+      color: #fff;
+      font-size: 1rem;
+      cursor: pointer;
+      transition: transform 0.2s, background 0.2s;
+    }
+    button:hover {
+      background: #ff4757;
+      transform: scale(1.05);
+    }
+  </style>
+</head>
+<body>
+  <h1>Harry & sein Team</h1>
+  <p>Harry und sein Team sind ein eingeschworenes Team von genialen Programmierern. Kreativität, Technik und Leidenschaft verbinden sie, um Projekte auf das nächste Level zu bringen.</p>
+  
+  <div class="team">
+    <div class="member">
+      <h2>Harry</h2>
+      <p>Der Kopf und Visionär, Meister im Lösen komplexer Probleme.</p>
+    </div>
+    <div class="member">
+      <h2>Alex</h2>
+      <p>Frontend-Guru, der jede Oberfläche zum Leben erweckt.</p>
+    </div>
+    <div class="member">
+      <h2>Sophia</h2>
+      <p>Backend-Expertin, sorgt dafür, dass alles stabil und performant läuft.</p>
+    </div>
+    <div class="member">
+      <h2>Max</h2>
+      <p>Full-Stack Entwickler, der Brücken zwischen Front- und Backend baut.</p>
+    </div>
+  </div>
+  
+  <button>Mehr über das Team erfahren</button>
+</body>
+</html>
